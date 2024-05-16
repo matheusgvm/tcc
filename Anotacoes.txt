@@ -1,0 +1,25 @@
+TCC
+
+- como lidar com variacoes de uma mesma classe -> criar subclasses
+- transformar o dataset de videos e um dataset tabular no formato do da competicao
+- Como lidar com Nan
+- A coordenada (0, 0) corresponde ao canto superior esquerdo e o (1, 1) representa o canto inferior direito
+- Fazendo a cv, quanto maior número de folds melhor o resultaado do modelo -> sinaliza a necessidade de dados de treinamento
+- Por conta do resultado bastante positivo, resolvi testar em tempo real, mas lá o resultado não ficou tão bom -> pensar em alguma forma de avaliar melhor o modelo
+
+Técnicas para classificacao de video:
+- A Amanda utiliza lstm para classificar e varia a forma de como as features são extraidas (cnns e landmarks)
+- Utilizar a media dos ultimos n frames para classificar https://pyimagesearch.com/2019/07/15/video-classification-with-keras-and-deep-learning/ -> falar problema dos nulos
+- LSTM
+- CNN (competicao)
+- MoviNet
+- Pesquisar novas técnicas
+
+
+objetivo 1: extrair landmark de um unico frame de um unico video
+objetivo 2: extrair landmarks dos videos e colocar em csv
+objetivo 3: Treinar um modelo básico
+
+Próximos Passos:
+Eleger 5 classes
+Treinar modelo frame a frame com essas 5 classes
